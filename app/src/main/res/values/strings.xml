@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">WIFI插座</string>
+    <string name="link_object">连接对象：</string>
+    <string name="de_state">设备状态</string>
+    <string name="object_ip">对象IP</string>
+    <string name="ob_major_name">对象主机名</string>
+    <string name="rec_data_filed">数据接收区</string>
+    <string name="num_byte">接收字节数：</string>
+    <string name="_0">0个</string>
+    <string name="send_data_field">数据发送区</string>
+    <string name="num_byte_send">发送字节数：</string>
+    <string name="_0_">0个</string>
+    <string name="clean">清除</string>
+    <string name="send">发送</string>
+    <string name="net_config">网络连接设置</string>
+    <string name="link_mode">连接模式</string>
+    <string name="local_i_p">本地 I P</string>
+    <string name="local_port">本地端口</string>
+    <string name="turnon">启动</string>
+    <string name="breakoff">断开</string>
+    <string name="rec_setup">接收设置</string>
+    <string name="_16hex">16进制</string>
+    <string name="auto_hang">自动换行</string>
+    <string name="send_setup">发送设置</string>
+    <string name="_16_hex">16进制</string>
+    <string name="auto_send">自动发送</string>
+    <string name="term">周期</string>
+    <string-array name="spiner">
+        <item>TCP服务器</item>
+        <item>TCP客户端</item>
+    </string-array>
+
+
+</resources>

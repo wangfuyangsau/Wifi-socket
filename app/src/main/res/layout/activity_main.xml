@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#454545"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+                 <ImageView
+                     android:src="@drawable/shenhanghui"
+                     android:scaleType="centerInside"
+                     android:layout_width="60dip"
+                     android:layout_height="60dip"  />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="@drawable/textshape2"
+                     android:gravity="center"
+                     android:text="143407020217出品"
+                     android:textColor="#f1dd07"
+
+                     android:textSize="25dp"/>
+             </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="当前模式："
+                    android:textColor="#3574ff"
+                    android:textSize="20sp"
+                  />
+
+                <TextView
+                    android:id="@+id/de_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/de_state"
+                    android:textColor="#fffc28"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/de_ip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/object_ip"
+                    android:textColor="#fffc28"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/de_sport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:hint="@string/ob_major_name"
+                    android:textColor="#fffc28"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:text="空调"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/textshape"
+                    android:textColor="#fffc28"/>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="冰箱"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/textshape"
+                    android:textSize="20dp"
+                    android:textColor="#fffc28"/>
+            </LinearLayout>
+
+
+            //控制按钮区
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="开关"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/switchhahah"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:showText="true"
+
+                    android:switchPadding="1dp"
+                    android:textOff="关"
+                    android:textOn="开" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="开关"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="20dp" />
+
+                <Switch
+
+                    android:id="@+id/switchbing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:showText="true"
+
+                    android:switchPadding="1dp"
+                    android:textOff="关"
+                    android:textOn="开" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="延时开"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/switchtime"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:showText="true"
+
+                    android:switchPadding="1dp"
+
+                    android:textOff="关"
+                    android:textOn="开" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="延时开"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="20dp" />
+
+                <Switch
+
+                    android:id="@+id/switchtimebing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:showText="true"
+
+                    android:switchPadding="1dp"
+
+                    android:textOff="关"
+                    android:textOn="开" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="延时关"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/switchtimeoff"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:showText="true"
+
+                    android:switchPadding="1dp"
+
+                    android:textOff="关"
+                    android:textOn="开" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="延时关"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="20dp" />
+
+                <Switch
+
+                    android:id="@+id/switchtimebingoff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:showText="true"
+
+                    android:switchPadding="1dp"
+                    android:textOff="关"
+                    android:textOn="开" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="时间"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/showtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:background="@drawable/textshape"
+                    android:hint="xx小时" android:textColor="#fffc28"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="23dp"
+                    android:gravity="center"
+                    android:text="时间"
+                    android:background="@drawable/textshape"
+                    android:textColor="#558b9c"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/showtimebing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:background="@drawable/textshape"
+                    android:hint="xx小时" android:textColor="#fffc28"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            //时间滑条
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+
+                <SeekBar
+                    android:id="@+id/settime"
+                    android:layout_width="320dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="25dp"
+                    android:max="50"
+                    android:progress="5" />
+            </LinearLayout>
+            //标准时间定时位置
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textshape2"
+                    android:text="空调定时开"
+                    android:textColor="#fffc28"
+                    android:textSize="20dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="当前状态"
+                    android:textSize="20dp"
+                    android:textColor="#fffc28"
+                    android:id="@+id/settimekong"/>
+
+
+                <Switch
+                    android:id="@+id/gettimesendkong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textshape2"
+                    android:showText="true"
+                    android:switchMinWidth="80dp"
+                    android:switchPadding="10dp"
+                    android:textOff="关"
+                    android:textOn="开" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textshape2"
+                    android:text="冰箱定时开"
+                    android:textColor="#fffc28"
+                    android:textSize="20dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="当前状态"
+                    android:textSize="20dp"
+                    android:textColor="#fffc28"
+                    android:id="@+id/settimebing"/>
+
+
+
+
+                <Switch
+                    android:id="@+id/gettimesendbing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textshape2"
+                    android:showText="true"
+                    android:switchMinWidth="80dp"
+                    android:switchPadding="10dp"
+                    android:textOff="关"
+                    android:textOn="开" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="循环模式"
+                    android:textColor="#fffc28"
+                    android:textSize="20dp"
+                   />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="关"
+                    android:textOn="开"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:minWidth="80dp"
+                    android:textColor="#fffc28"
+                    android:showText="true"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="夜间模式"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#fffc28"/>
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="关"
+                    android:textOn="开"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:minWidth="80dp"
+                    android:textColor="#fffc28"
+                    android:showText="true"
+                           />
+            </LinearLayout>
+            //数据接收区标题
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+               >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rec_data_filed"
+                    android:textSize="20sp"
+                    android:textColor="#fffc28"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="@string/num_byte"
+                    android:textSize="15sp"
+                    android:textColor="#fffc28"/>
+
+                <TextView
+                    android:id="@+id/receive_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/_0"
+                    android:textSize="15sp"
+                    android:textColor="#fffc28"/>
+            </LinearLayout>
+
+
+            //数据接收区显示框架
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+                <TextView
+                    android:id="@+id/receive"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:textColor="#fffc28"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            //数据发送区标题
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_data_field"
+                    android:textSize="20sp" android:textColor="#fffc28"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="@string/num_byte_send"
+                    android:textSize="15sp" android:textColor="#fffc28"/>
+
+                <TextView
+                    android:id="@+id/send_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/_0_"
+                    android:textSize="15sp" android:textColor="#fffc28"/>
+
+            </LinearLayout>
+
+
+            //数据发送区显示框架
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:focusable="false">
+
+                <EditText
+                    android:id="@+id/send_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+
+
+                    android:textColor="#fffc28"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+            //数据发送和清除按钮
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/de_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="0.4"
+                    android:text="@string/clean"
+                    android:textColor="#fffc28"/>
+
+                <Button
+                    android:id="@+id/de_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="0.4"
+                    android:text="@string/send"
+                    android:textColor="#fffc28"/>
+            </LinearLayout>
+
+
+            //网络设置区
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/net_config"
+                    android:textColor="#fffc28"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/link_mode"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+
+                    <Spinner
+                        android:id="@+id/ch_mode"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:entries="@array/spiner"
+                        android:spinnerMode="dialog"
+                        android:textColor="#fffc28"></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ip_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="35dp"
+                        android:text="@string/local_i_p"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/ip_edit"
+                        android:layout_width="298dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="20dp"
+
+                        android:hint=""
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/port_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/local_port"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/port_edit"
+                        android:layout_width="298dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:hint=""
+                        android:textColor="#fffc28"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/turnon"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/stop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:enabled="false"
+                        android:text="@string/breakoff"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/rec_setup"
+                    android:textColor="#fffc28"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/hex_show"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:checked="false"
+                        android:text="@string/_16_hex"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/autohuang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/auto_hang"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/send_setup"
+                    android:textColor="#fffc28"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/hex_send"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:checked="false"
+                        android:text="@string/_16_hex"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/auto_send"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/auto_send"
+                        android:textColor="#fffc28"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/term"
+                        android:textColor="#fffc28"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <EditText
+                        android:id="@+id/edi_auto"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="4"
+                        android:hint="1000"
+                        android:inputType="number"
+                        android:textColor="#fffc28"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
