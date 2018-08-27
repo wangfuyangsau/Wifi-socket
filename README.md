@@ -1,1 +1,1 @@
-# wifichazuoqqqq
+这是一个基于TCP通讯的WiFi插座核心就是一个手机的网络调试助手，支持smartcongfig功能。目前只限于局域网下通讯。
